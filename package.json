@@ -1,0 +1,11 @@
+{
+  "name": "courtcode",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@10.9.2",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "mkdir -p public && rm -f public/*.html public/styles.css public/app.js && cp index.html about.html game.html scouting.html academics.html achievements.html film.html media.html contact.html styles.css app.js public/"
+  }
+}
