@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111416" />
+    <meta
+      name="description"
+      content="Sushank Kumar Singh — student-athlete, basketball player, and Computer Science & AI enthusiast."
+    />
+    <title>Sushank Kumar Singh — Student Athlete</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="app.js" defer></script>
+  </head>
+
+  <body class="home-page">
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Back to home">
+        <span class="wordmark-mark">Sushank Kumar Singh</span>
+        <span class="wordmark-role">student athlete</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="about.html">About</a>
+        <a href="game.html">Game</a>
+        <a href="scouting.html">Scouting</a>
+        <a href="academics.html">Academics</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="film.html">Film</a>
+        <a href="media.html">Media</a>
+        <a class="nav-cta" href="contact.html">Let’s connect <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home-hero section-pad">
+        <div class="home-hero-copy" data-reveal>
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            India · student-athlete portfolio
+          </p>
+
+          <h1>
+            Brains in the books.<br />
+            <em>Fire on the court.</em>
+          </h1>
+
+          <p class="hero-intro">
+            I’m <strong>Sushank Kumar Singh</strong> — a Grade 12 student at
+            Corvuss American Academy exploring Computer Science and AI while
+            building the instincts, discipline, and team IQ of a basketball
+            player.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary magnetic" data-magnetic href="game.html">
+              View my game <span>↗</span>
+            </a>
+            <a class="button button-outline magnetic" data-magnetic href="contact.html">
+              Contact me <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="home-hero-stage" data-reveal data-delay="120">
+          <div class="stage-grid" aria-hidden="true"></div>
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+
+          <div class="hero-photo-wrap">
+            <img
+              class="hero-photo"
+              src="assets/sushank-profile.png"
+              alt="Sushank Kumar Singh"
+            />
+            <div class="photo-label photo-label-top">
+              6'5 <span>height</span>
+            </div>
+            <div class="photo-label photo-label-bottom">
+              point guard / forward
+            </div>
+          </div>
+
+          <div class="basketball" aria-hidden="true">
+            <svg viewBox="0 0 100 100" role="presentation">
+              <circle cx="50" cy="50" r="47" fill="currentColor" />
+              <path
+                d="M17 21c20 9 33 27 33 48 0 11-3 21-9 29M84 20C64 29 51 47 51 68c0 11 3 21 9 29M8 54c18-7 38-9 60-2 11 3 20 8 27 15M36 5c2 20 10 37 26 51 9 8 19 13 30 16"
+                fill="none"
+                stroke="#101828"
+                stroke-width="3.4"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-links section-pad" aria-labelledby="portfolio-title">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            Explore the portfolio
+          </p>
+          <h2 id="portfolio-title">
+            Choose a section.<br />
+            <em>Go straight there.</em>
+          </h2>
+        </div>
+
+        <div class="portfolio-link-grid" data-reveal data-delay="80">
+          <a class="portfolio-link-card" href="about.html">
+            <span>01</span>
+            <strong>About</strong>
+            <small>The person behind the player <b>↗</b></small>
+          </a>
+
+          <a class="portfolio-link-card portfolio-link-card-accent" href="game.html">
+            <span>02</span>
+            <strong>Game</strong>
+            <small>Basketball profile and performance <b>↗</b></small>
+          </a>
+
+          <a class="portfolio-link-card" href="scouting.html">
+            <span>03</span>
+            <strong>Scouting</strong>
+            <small>Metrics, testing, and role profile <b>↗</b></small>
+          </a>
+
+          <a class="portfolio-link-card" href="academics.html">
+            <span>04</span>
+            <strong>Academics</strong>
+            <small>GPA, awards, and extracurriculars <b>↗</b></small>
+          </a>
+
+          <a class="portfolio-link-card portfolio-link-card-dark" href="achievements.html">
+            <span>05</span>
+            <strong>Achievements</strong>
+            <small>Competition and leadership record <b>↗</b></small>
+          </a>
+
+          <a class="portfolio-link-card" href="film.html">
+            <span>06</span>
+            <strong>Film</strong>
+            <small>Game film and highlight reel <b>↗</b></small>
+          </a>
+
+          <a class="portfolio-link-card" href="media.html">
+            <span>07</span>
+            <strong>Media</strong>
+            <small>Gallery and social links <b>↗</b></small>
+          </a>
+
+          <a class="portfolio-link-card portfolio-link-card-contact" href="contact.html">
+            <span>08</span>
+            <strong>Contact</strong>
+            <small>Recruiting and collaboration <b>↗</b></small>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Sushank Kumar Singh</span>
+      <span>Student Athlete · Computer Science + AI</span>
+      <a href="contact.html">Let’s connect ↗</a>
+    </footer>
+  </body>
+</html>
